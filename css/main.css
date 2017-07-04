@@ -1,0 +1,286 @@
+/*universal selector-selects all*/
+* {
+	/*selects the font family lato, with a san-serif back up*/
+	font-family: 'Lato', san-serif;
+	/*sets margin to 0*/
+	margin: 0;
+	/*setts padding to 0*/
+	padding: 0;
+}
+
+/*selects to hr tag content breaker*/
+hr {
+	/*sets border to 1px a solid line in the color #c79852*/
+	border: 1px solid #c79852;
+	/*sets margain of the hr tag to 3% and its position on auto*/
+	margin: 3% auto;
+	/*sets width of hr tag to 7%*/
+	width: 7%;
+}
+
+/*selects the nav tag*/
+nav {
+	/*sets the margain of the nav tag to 0 and 1%*/
+	margin: 0 1%;
+	/*sets the padding of the nav tag to 1% and 5%*/
+	padding: 1% 5%;
+}
+
+/*selects the divider tags with in the nav tag*/
+nav > div {
+	/*sets the display of the div tag to inline-block, which moved it slightly to the right*/
+	display: inline-block;
+}
+/*selects the links with in the dividers of the nav tag*/
+nav > div > a {
+	/*sets color of the link the #464646*/
+	color: #464646;
+	/*sets the font- size to 16px which is the next size up from its orginal default size*/
+	font-size: 16px;
+	/*sets the font weight to bold, which thickens the shape of each letter*/
+	font-weight: bold;
+	/*tells the page there is no addition decoration or styling to the text*/
+	text-decoration: none;
+}
+
+/*selects the div:last-child tag inside the nav tag*/
+nav > div:last-child {
+	/*sets the div to flaot to the right of the page, which move the search input box to the right of the words and icon*/
+float: right;	
+}
+
+/*selects the input in the nav tag*/
+nav input {
+	/*sets border style to none around the input in the nav tag*/
+	border: none;
+}
+/*selects the section tag and creates a bottom padding of 50px, giving it more space from bottom and the top of the header*/
+section {
+	padding-bottom: 50px;
+}
+/*selects the header tag*/
+header {
+	/*sets margain of header tag to 0 and auto center*/
+	margin: 0 auto;
+	/*aligns the text to center in the middle of page*/
+	text-align: center;
+	/*sets the width of the header to 80%*/
+	width: 80%;
+}
+/*selects the img tags in the header*/
+header img {
+	/*chances the border radius around the img to 50% which also made it smaller and into a cirlce shape*/
+	border-radius: 50%;
+	/*sets the height of the img to 75px*/
+	height: 75px;
+	/*sets the width of the img to 75px*/
+	width: 75px;
+}
+/*selects the first heading with in the the header tag*/
+header h1 {
+	/*sets the color of the heading to a black color*/
+	color: #242424;
+	/*sets the font family of the heading to lora with a back up of serif*/
+	font-family: 'Lora', serif;
+	/*sets the size of the font to a 60px a larger font*/
+	font-size: 60px;
+	/*creates space inbetween the letters set to -1px*/
+	letter-spacing: -1px;
+	/*sets the line height to 60px*/
+	line-height: 60px;
+/*sets the margain around the heading to 1% and 0*/
+	margin: 1% 0;
+}
+/*selects the second heading in the header tag*/
+header h2 {
+	/*changes the h2 color to */
+	color:#5f5f5f;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 5% 0 3%;
+}
+
+header p {
+	font-size: 16px;
+	margin: 3% 0;
+}
+
+section > div {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+
+section > div p {
+	color: #565656;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0 15%;
+	margin: 3% 0;
+	text-align: left;
+}
+
+.personal-quote {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+}
+
+.img-wrap {
+	height: 450px;
+}
+
+.img-wrap img {
+	float: left;
+}
+
+.img-wrap img:first-child {
+	margin-left: 9%;
+}
+
+.img-wrap img:nth-child(n+2) {
+	margin-left: 7px;
+}
+
+.img-wrap img:last-child {
+	margin-top: 7px;
+}
+
+section > footer {
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+}
+
+section > footer > div {
+	color: #565656;
+}
+
+footer .fa-heart {
+	color: #E04F4A;
+	margin-bottom: 3%;
+}
+
+footer textarea {
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	border-color: #e5e5e5;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	color: #555;
+    font-size: 14px;
+    line-height: 1.42857143;
+	padding: 6px 12px;
+	width: 100%;
+}
+
+.button-group {
+	text-align: left;
+}
+
+.button-group button {
+	border: none;
+    background: white;
+    color: #565656;
+    font-size: 12px;
+    padding: 0 5px 0 0;
+}
+
+.button-group button:last-child{
+	float: right;
+	padding: 0;
+}
+
+.button-group button:hover {
+	color: #5e5e5e;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+}
+
+body > footer {
+	background: #F8F9FD;
+	height: 200px;
+	padding: 0 20%;
+	position: relative;
+}
+
+.previous-article,
+.next-article {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+}
+
+.previous-article {
+	left: 20%;
+	position: absolute;
+}
+
+.previous-button {
+	text-align: left;
+}
+
+.next-article {
+	position: absolute;
+	right: 20%;
+}
+
+.next-button {
+	text-align: right;
+}
+
+.previous-button,
+.next-button {
+	margin: 10% 0;
+}
+
+.previous-button a,
+.next-button a {
+	color: #434345;
+	font-weight: bold;
+	margin: 3% 0;
+	text-decoration: none;
+}
+
+.previous-button p,
+.next-button p {
+	font-weight: normal;
+	margin: 3% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

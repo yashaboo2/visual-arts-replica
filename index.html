@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- all html code goes in between the html tags
+lang=selects the language for which the page will be displayed in -->
+<html lang="en">
+<!-- the data about the webpage, its links to stylesheets, page name, icon/font links=all goes in the head tags -->
+  <head>
+  <!-- character set -->
+  <!-- meta tags does not require closing tags -->
+    <meta charset="utf-8">
+    <!-- creator of the website -->
+    <meta name="Nyasha" content="Codify Adademy">
+    <!-- Description of the website -->
+    <meta name="replica of Codify visual arts page " content="visual arts Blog website Replication">
+
+<!-- Title -->
+    <!-- the title of the page will also be displayed in the browser tab -->
+    <title>Visual Arts Blog Article</title>
+
+    <!-- link to Favorite icon -->
+    <!-- link to external stylesheets -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- font Awesome- for icons -->
+    <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Petit+Formal+Script|Lora">
+    <!-- link to customized CSS stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <!-- the body is whats actually displayed on the page -->
+  <body>
+<!-- the layout elements -->
+<!-- top navigation block-elemnt -->
+  <nav>
+  <!-- div divides the block elements into groups -->
+  	<div>
+  	<!-- link to a VISUAL ARTS home page -->
+  	<a href="#">VISUAL ARTS</a>	
+  	</div>
+  	<!-- another divider -->
+  	<div>
+  	<!-- selects the class of fa fa-search and italizes the class -->
+  		<i class="fa fa-search"></i>
+  		<!-- the iput tag creates a section where the user can input/type information -->
+  		<input type="text" placeholder="SEARCH">
+  	</div>
+  </nav>
+
+<section>
+	<header>
+		<!-- links image from external img folder and adds and alternative if the user can not view the picture -->
+		<img src="img/noah.png" alt="Noah Adrews">
+
+		<!-- creates paragraph under the first image -->
+		<p>Noah Andrews</p>
+		<!-- places a largest heading -->
+		<!-- br=adds whitespace to the heading -->
+		<h1>The World of <br> Charles & Ray Eames</h1>
+		<!-- second heading -->
+		<h2>12 January 2016</h2>
+	</header>
+	<!-- hr indicates a content break usuaally by a horizontal line -->
+	<hr>
+<!-- another divider -->
+	<div>
+		<!-- paragragh inside of divider-->
+		<p>With a grand sense of adventure, Charles and Ray Eames turned their curiosity and boundless enthusiam into creations that established them as a truly great husband and wife team. Their unique synergy led to a whole new look in furniture. Lean and modern. Playful and functional. Sleek, sophisticated and beautifully simple. That was and is the "Eames look".</p>
+
+       <!-- img tag adds image from external img folder with and alternative text -->
+		<img src="img/chair1.png" alt="side view of chair">
+
+     <!-- paragraph -->
+		<p>That look and their relationship with Herman Miller started with moulded plywoood chairs in the late 1940s and included the world-reowned Eames lounge chair, now in the permanent collection of the museum of Modern Art in New York</p>
+		<!-- paragraph -->
+
+		<p>Charles and Ray achieved their monumental success by approaching each project the same way: Does it interest and intrique us? Can we make it better?</p>
+
+		<!-- paragraph with a style class of personal-quote -->
+		<p class="personal-quote">"Choose your corner, pick away at it carefully, intensely & to the best of your ability, & that way, you might change the world" <br> <span>- Charles Eames</span></p>
+
+		<!-- paragraph -->
+		<p>They loved their work, which was a combination of art and science, design and architecture, process and product, style and function. "The details are not details", said Charles. "They make the product".</p>
+		<!-- divider insider the divider with class of img-wrap -->
+		<div class="img-wrap">
+		<img src="img/chair2.png" alt="front view of chair">
+		<!-- img tag with class of img-right -->
+		<img class="img-right" src="img/chair3.png" alt="under view of chair">
+		<img class="img-right" src="img/chair4.png" alt="under view of chair">		
+		</div>
+
+		<!-- paragraph -->
+		<p>Their own concepts evolved over time, not overight. As Charles noted about the development of the Moulded Plywood Chairs, "Yes, it was a flash of inspiration", he said, "a kind of 30-year flash".</p>
+		<!-- paragraph -->
+		<p>A design critic ounce said that this extraordinary couple "just wanted to make the world a better place". That they did. That also made it a lot more interesting.</p>
+	</div>
+	<!-- content break -->
+	<hr>
+	<!-- footer-bottom of page -->
+	<footer>
+	<!-- divider -->
+		<div>
+		<!-- indicates different type of text? with a class of fa fa-heart icon -->
+			<i class="fa fa-heart"></i> 325 Likes
+		</div>
+
+		<!-- form tag create a form for the user to input info -->
+		<form>
+		<!-- multiline input area, maybe a box -->
+			<textarea rows="5" placeholder="Describe yourself here..."></textarea>
+			<!-- divider with a class of button-group-->
+			<div class="button-group">
+			<!-- buttons -->
+				<button>Bookmark</button>
+				<button>Share</button>
+				<button>More</button>
+				<!-- button with class of button-right -->
+				<button class="button-right">POST COMMENT</button>
+			</div>
+		</form>
+	</footer>
+</section>
+<!-- lowest footer -->
+<footer>
+	<!-- divider with a class of previous-article -->
+	<div class="previous-article">
+	<!-- divider with a class of previous-button insider divider  -->
+		<div class="previous-button">
+			<!-- link -->
+			<a href="#">
+				<i class="fa fa-arrow-left"></i>PREVIOUS ARTICLE
+				<p>HOW INSTRMNT Watches Are Made</p>
+			</a>
+		</div>
+	</div>
+	<div class="next-article">
+		<div class="next-button">
+			<a href="#">
+				NEXT ARTICLE <i class="fa fa-arrow-right"></i>
+				<p>The Corner House in Kitashirakawa</p>
+			</a>
+		</div>
+	</div>
+</footer>
+
+  </body>
+  
+</html>
